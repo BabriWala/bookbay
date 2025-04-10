@@ -1,4 +1,4 @@
-### Project Name: Book Bay
+# Project Name: Book Bay
 
 ## Colors Name:
 
@@ -16,6 +16,7 @@
 ## Dependency List:
 
 - Vite + React
+- Data Mode - React Router
 
 ## Public Folder:
 
