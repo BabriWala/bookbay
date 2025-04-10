@@ -1,19 +1,23 @@
-Project Name: Book Bay
+### Project Name: Book Bay
 
-Colors Name:
-Primary
-Secondary
-Tertiary
-Black
-White
+## Colors Name:
 
-Font Family:
-Baskerville - Primary Font
-Lato - Secondary Font
+- Primary
+- Secondary
+- Tertiary
+- Black
+- White
 
-Dependency List:
-Vite + React
+## Font Family:
 
-Public Folder:
-Logo
-Favicon ICOn
+- Baskerville - Primary Font
+- Lato - Secondary Font
+
+## Dependency List:
+
+- Vite + React
+
+## Public Folder:
+
+- Logo
+- Favicon ICOn
