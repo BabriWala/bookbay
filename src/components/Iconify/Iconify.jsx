@@ -1,8 +1,8 @@
 import React from "react";
 import { Icon } from "@iconify/react/dist/iconify.js";
 
-const Iconify = ({ icon }) => {
-  return <Icon icon={icon}></Icon>;
+const Iconify = ({ icon, className = "" }) => {
+  return <Icon icon={icon} className={className}></Icon>;
 };
 
 export default Iconify;
