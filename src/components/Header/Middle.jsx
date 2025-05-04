@@ -6,11 +6,11 @@ import Input from "../Input/Input";
 
 const Middle = () => {
   return (
-    <div>
-      <div className="flex items-center justify-between container mx-auto py-3">
+    <div className="border-b border-t border-b-indigo-50 border-t-indigo-50">
+      <div className="flex items-center justify-between container mx-auto py-3 ">
         <img src="/Logo.png" />
 
-        <div className="flex items-center bg-tertiary">
+        <div className="hidden lg:flex items-center bg-tertiary">
           <div className=" flex items-center gap-2  px-4">
             <Typography
               variant="small"

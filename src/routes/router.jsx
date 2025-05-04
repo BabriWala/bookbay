@@ -12,59 +12,66 @@ import ProductAuthor from "../pages/ProductAuthor/ProductAuthor";
 import Faq from "../pages/Faq/Faq";
 import NotFound from "../pages/NotFound/NotFound";
 import TestComponents from "../pages/TestComponents/TestComponents";
+import MainLayout from "../layout/MainLayout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home></Home>,
-  },
-  {
-    path: "/about",
-    element: <About></About>,
-  },
-  {
-    path: "/contact",
-    element: <Contact></Contact>,
-  },
-  {
-    path: "/store",
-    element: <Store></Store>,
-  },
-  {
-    path: "/product-details",
-    element: <ProductDetails></ProductDetails>,
-  },
-  {
-    path: "/login",
-    element: <Login></Login>,
-  },
-  {
-    path: "/registration",
-    element: <Registration></Registration>,
-  },
-  {
-    path: "/blog",
-    element: <Blog></Blog>,
-  },
-  {
-    path: "/blog-details",
-    element: <BlogDetails></BlogDetails>,
-  },
-  {
-    path: "/product-author",
-    element: <ProductAuthor></ProductAuthor>,
-  },
-  {
-    path: "/faq",
-    element: <Faq></Faq>,
-  },
-  {
-    path: "/test/components",
-    element: <TestComponents></TestComponents>,
-  },
-  {
-    path: "/*",
-    element: <NotFound></NotFound>,
+    element: <MainLayout></MainLayout>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "/about",
+        element: <About></About>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
+      {
+        path: "/store",
+        element: <Store></Store>,
+      },
+      {
+        path: "/product-details",
+        element: <ProductDetails></ProductDetails>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/registration",
+        element: <Registration></Registration>,
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
+      },
+      {
+        path: "/blog-details",
+        element: <BlogDetails></BlogDetails>,
+      },
+      {
+        path: "/product-author",
+        element: <ProductAuthor></ProductAuthor>,
+      },
+      {
+        path: "/faq",
+        element: <Faq></Faq>,
+      },
+      {
+        path: "/test/components",
+        element: <TestComponents></TestComponents>,
+      },
+      {
+        path: "/*",
+        element: <NotFound></NotFound>,
+      },
+    ],
   },
 ]);
 
