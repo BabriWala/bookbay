@@ -7,6 +7,7 @@ import HomeAdvertizeSection from "../../section/HomeAdvertizeSection";
 import BookOfTheMonthSection from "../../section/BookOfTheMonthSection";
 import HomeBottomFeatureSection from "../../section/HomeBottomFeatureSection";
 import Product from "../../components/Product/Product";
+import HomeProductSection from "../../section/HomeProductSection";
 
 const Home = () => {
   return (
@@ -14,9 +15,7 @@ const Home = () => {
       <BookCardSection></BookCardSection>
       <HomeAdvertizeSection></HomeAdvertizeSection>
       <BookOfTheMonthSection></BookOfTheMonthSection>
-      <div className="grid grid-cols-5">
-        <Product></Product>
-      </div>
+      <HomeProductSection></HomeProductSection>
       <HomeBottomFeatureSection></HomeBottomFeatureSection>
       <ReviewSection></ReviewSection>
       <Facility></Facility>
